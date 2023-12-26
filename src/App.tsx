@@ -72,15 +72,16 @@ export default function App() {
         className="w-full max-w-prose rounded bg-slate-50 p-8 text-center"
         id="quote-box"
       >
-        <div className="mb-0 mt-12 text-9xl font-extrabold leading-10 text-fuchsia-500">
+        <div className="mb-0 mt-12 text-9xl font-extrabold font-serif leading-10 text-fuchsia-500">
           &ldquo;
         </div>
         {/* User Story #2: Within #quote-box, I can see an element with a corresponding id="text". */}
-        <h1 className="mb-6 text-3xl font-semibold text-slate-800" id="text">
+        {/* User Story #2: Within #quote-box, I can see an element with a corresponding id="text". */}
+        <h1 className="mb-6 text-4xl font-semibold font-serif text-slate-800" id="text">
           {quote.text}
         </h1>
         {/*User Story #3: Within #quote-box, I can see an element with a corresponding id="author".*/}
-        <h3 className="ml-auto mr-0 w-full text-xl text-slate-800" id="author">
+        <h3 className="ml-auto mr-0 w-full text-xl text-slate-600" id="author">
           &mdash;&nbsp;{quote.author}
         </h3>
         {/* User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote". */}
